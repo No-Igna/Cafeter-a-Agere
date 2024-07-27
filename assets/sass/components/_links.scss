@@ -2,5 +2,9 @@
     font-family: $ptmono;
     font-size: $medium;
     margin-left: 32px;
+    color:$spanish-gray;
     text-decoration: none;
+    &:hover{
+        color: $black;
+    }
 }

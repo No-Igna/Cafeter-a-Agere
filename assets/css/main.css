@@ -18,6 +18,50 @@
   justify-content: end;
 }
 
+.header {
+  display: flex;
+  height: 29rem;
+}
+.header__img {
+  max-width: 56.25rem;
+}
+.header__identification {
+  width: 23.75rem;
+  padding: 2rem;
+}
+.header__title {
+  font-size: 70px;
+  padding-bottom: 1rem;
+}
+.header__text {
+  font-size: 18px;
+}
+.header__info {
+  display: flex;
+  position: absolute;
+  left: 38rem;
+  bottom: 39rem;
+  height: 10rem;
+  width: 28rem;
+  background-color: #fff;
+}
+.header__box {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+}
+.header__box--coral {
+  z-index: 3;
+  background-color: #f1dd7b;
+}
+
+.card {
+  padding: 1rem;
+}
+.card__title {
+  font-size: 40px;
+}
+
 .button {
   font-size: 16px;
   padding: 0.2rem 0.4rem;
@@ -52,7 +96,11 @@
   font-family: "PT mono", monospace;
   font-size: 16px;
   margin-left: 32px;
+  color: #989797;
   text-decoration: none;
+}
+.link:hover {
+  color: #000;
 }
 
 * {

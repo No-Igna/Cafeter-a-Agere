@@ -1,18 +1,36 @@
-.navbar{
-    width: 100%;
+.header{
     display: flex;
-    height: 6rem;
-    padding: 2rem;
-    align-items: center;
-    &__item{
-        padding: 10px;
-    }
+    height: 29rem;
     &__img{
-        width: 1.875rem;
+        max-width: 56.25rem;
     }
-    &__to-right{
-        width: 70%;
-        display: flex; 
-        justify-content: end;
+    &__identification{
+        width: 23.75rem;
+        padding: 2rem;
+    }
+    &__title{
+        font-size: $xxx-large;
+        padding-bottom: 1rem;
+    }
+    &__text{
+        font-size: $large;
+    }
+    &__info{
+        display: flex;
+        position: absolute;
+        left: 38rem;
+        bottom: 39rem;
+        height: 10rem;
+        width: 28rem;
+        background-color: $white;
+    }
+    &__box{
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+        &--coral{
+            z-index: 3;
+            background-color: $buff;
+        }
     }
 }
