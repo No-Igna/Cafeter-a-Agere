@@ -1,0 +1,49 @@
+.header{
+    position: relative;
+    display: flex;
+    height: 29rem;
+    &__img{
+        max-width: 56.25rem;
+    }
+    &__identification{
+        width: 23.75rem;
+        padding: 2rem;
+    }
+    &__title{
+        font-size: $xxx-large;
+        padding-bottom: 1rem;
+    }
+    &__text{
+        font-size: $large;
+    }
+    &__info{
+        display: flex;
+        position: absolute;
+        left: 29rem;
+        bottom: 0rem;
+        height: 8rem;
+        width: 28rem;
+        background-color: $white;
+    }
+    &__box{
+        position: absolute;
+        height: 8rem;
+        width: 8rem;
+        &--buff{
+            background-color:$buff;
+            left: 57.3rem;
+            bottom: 0rem;
+        }
+        &--flame{
+            background-color: $flame;
+            color: $white;
+            font-size: $xxx-large;
+            left: 56.3rem;
+            bottom: 1rem;
+            i{
+                padding: 2rem;
+            }
+        }
+
+    }
+}
