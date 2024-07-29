@@ -1,0 +1,29 @@
+.button{
+    font-size: $medium;
+    padding: .2rem .4rem;
+    margin: 1%;
+    &--primary{
+        border: solid $spanish-gray;
+        border-width: .1rem;
+        color: $spanish-gray;
+        transition: 100ms ease;
+        &:hover {
+            border: solid $outer-space;
+            border-width: .1rem;
+            color: $black;
+        }
+    }
+    &--secondary{
+        border: solid $shiny-shamrock;
+        background-color: $shiny-shamrock;
+        border-width: .1rem;
+        color: $white;
+        transition: 100ms ease;
+        &:hover {
+            border: solid $turquoise-green;
+            background-color: $turquoise-green;
+            border-width: .1rem;
+            color: $outer-space;
+        }
+    }
+}
