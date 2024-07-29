@@ -18,7 +18,59 @@
   justify-content: end;
 }
 
+.section {
+  position: relative;
+  display: flex;
+  height: 15rem;
+  align-items: center;
+}
+.section__meet {
+  position: absolute;
+  width: 28rem;
+  padding: 1rem 3rem 1rem 1rem;
+}
+.section__title {
+  font-size: 30px;
+}
+.section__text {
+  font-size: 16px;
+}
+.section__img {
+  position: absolute;
+}
+.section__img--map {
+  z-index: 1;
+  height: 12rem;
+  bottom: 2rem;
+  left: 25.5rem;
+}
+.section__img--coffee-beans {
+  z-index: 2;
+  height: 10rem;
+  -webkit-clip-path: inset(0px 220px 0px 0px);
+          clip-path: inset(0px 220px 0px 0px);
+  top: 0rem;
+  left: 53rem;
+}
+.section__img--coffee-machine {
+  z-index: 1;
+  height: 15rem;
+  width: 26rem;
+  bottom: 0rem;
+  left: 54rem;
+}
+.section__div {
+  position: relative;
+  height: 15rem;
+  width: 25rem;
+  z-index: -1;
+  top: -1rem;
+  left: 29rem;
+  background-color: #3c91e6;
+}
+
 .header {
+  position: relative;
   display: flex;
   height: 29rem;
 }
@@ -39,20 +91,31 @@
 .header__info {
   display: flex;
   position: absolute;
-  left: 38rem;
-  bottom: 39rem;
-  height: 10rem;
+  left: 29rem;
+  bottom: 0rem;
+  height: 8rem;
   width: 28rem;
   background-color: #fff;
 }
 .header__box {
-  width: 10rem;
-  height: 10rem;
   position: absolute;
+  height: 8rem;
+  width: 8rem;
 }
-.header__box--coral {
-  z-index: 3;
+.header__box--buff {
   background-color: #f1dd7b;
+  left: 57.3rem;
+  bottom: 0rem;
+}
+.header__box--flame {
+  background-color: #e4572e;
+  color: #fff;
+  font-size: 70px;
+  left: 56.3rem;
+  bottom: 1rem;
+}
+.header__box--flame i {
+  padding: 2rem;
 }
 
 .card {

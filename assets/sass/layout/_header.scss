@@ -1,4 +1,5 @@
 .header{
+    position: relative;
     display: flex;
     height: 29rem;
     &__img{
@@ -18,19 +19,31 @@
     &__info{
         display: flex;
         position: absolute;
-        left: 38rem;
-        bottom: 39rem;
-        height: 10rem;
+        left: 29rem;
+        bottom: 0rem;
+        height: 8rem;
         width: 28rem;
         background-color: $white;
     }
     &__box{
-        width: 10rem;
-        height: 10rem;
         position: absolute;
-        &--coral{
-            z-index: 3;
-            background-color: $buff;
+        height: 8rem;
+        width: 8rem;
+        &--buff{
+            background-color:$buff;
+            left: 57.3rem;
+            bottom: 0rem;
         }
+        &--flame{
+            background-color: $flame;
+            color: $white;
+            font-size: $xxx-large;
+            left: 56.3rem;
+            bottom: 1rem;
+            i{
+                padding: 2rem;
+            }
+        }
+
     }
 }
